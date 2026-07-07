@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginScreen from "./login";
 import ExamApp from "./ExamApp";
 import SMEPortal from "./SMEPortal";
-import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRoute from "./protectedRoute";
 
 function App() {
   return (
