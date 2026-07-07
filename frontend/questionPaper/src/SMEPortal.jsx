@@ -3,7 +3,7 @@ import "./SMEPortal.css";
 import axios from "axios";
 
 // ─── Axios instance ───────────────────────────────────────────
-const api = axios.create({ baseURL: "http://localhost:9000/api" });
+const api = axios.create({ baseURL: "https://question-paper-app-1.onrender.com/api" });
 
 function getErrorMessage(err, fallback = "Something went wrong. Please try again.") {
   const data = err?.response?.data;

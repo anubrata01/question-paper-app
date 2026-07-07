@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 
-const api = axios.create({ baseURL: "http://localhost:9000/api" });
+const api = axios.create({ baseURL: "https://question-paper-app-1.onrender.com/api" });
 
 // ─── Sample data ───────────────────────────────────────────────
 const QUESTIONS = [

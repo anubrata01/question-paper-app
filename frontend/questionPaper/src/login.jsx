@@ -22,7 +22,7 @@ export default function LoginScreen() {
   const handleLogin = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:9000/api/login/",
+        "https://question-paper-app-1.onrender.com/api/login/",
         {
           username: email,
           password: password,
