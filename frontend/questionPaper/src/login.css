@@ -1,0 +1,116 @@
+/* ───── Login page ───── */
+.login-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px;
+  background: #ffffff;
+}
+
+.login-logo {
+  width: 56px;
+  height: 56px;
+  background: #e6f1fb;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-logo svg {
+  width: 28px;
+  height: 28px;
+  color: #1a6fc4;
+}
+
+.login-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f1c2e;
+  margin-bottom: 6px;
+}
+
+.login-sub {
+  font-size: 13px;
+  color: #7a92a8;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a6174;
+  letter-spacing: 0.02em;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #dce7f0;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #1e2f3f;
+  background: #f8fafc;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.input-field:focus {
+  border-color: #1a6fc4;
+  background: #ffffff;
+}
+
+.input-field::placeholder {
+  color: #b0bec8;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background: #1a6fc4;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.btn-login:hover {
+  background: #155fa8;
+}
+
+.login-footer {
+  font-size: 12px;
+  color: #8fa3b4;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-footer a {
+  color: #1a6fc4;
+  text-decoration: none;
+  font-weight: 500;
+}

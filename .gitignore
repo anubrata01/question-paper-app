@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# SQLite
+backend/db.sqlite3
+
+# React
+frontend/questionPaper/node_modules/
+frontend/questionPaper/dist/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
