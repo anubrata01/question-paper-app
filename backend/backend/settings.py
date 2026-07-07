@@ -63,7 +63,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
     "http://10.231.213.193:5173",
-    "https://question-paper-app-nine.vercel.app/"
+    "https://question-paper-app-nine.vercel.app"
 ]
 # ALLOWED_HOSTS=["*"]
 
